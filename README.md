@@ -53,11 +53,14 @@ The NOAA/National Hurricane Center HURDAT2 data were cleaned and aggregated from
 
 **Interpretation:** The estimated relationship was weakly positive but **not statistically significant** at α = .05. This result does **not** establish that hurricane intensity is unchanged or rule out other climate-related trends; it reflects this particular outcome, region, period, and linear model.
 
-## Project files
+## Project Files
 
-- [`Atlantic_Hurricane_Research.docx`](Atlantic_Hurricane_Research.docx): research report, statistical results, methodology, visualizations, and references.
+- [Research Paper](Atlantic_Hurricane_Research.docx) — Complete research report, methodology, statistical findings, and references.
+- [Recovered R Analysis Code](hurricane_analysis_recovered.R) — Original R commands recovered from session history, including regression, correlations, and diagnostic analysis.
+- [Storm Trend Visualization](storm_trend.png) — Scatterplot of maximum wind speed by year with fitted regression line.
+- [Regression Diagnostics](storm_model_diagnostics.png) — Four-panel diagnostic plots evaluating regression assumptions.
 
-The original R source scripts and individually exported figures are **not included in this initial release**. They will be added when verified from the original analysis. The report contains the existing study figures.
+The analysis code was recovered from the original R command history. The complete raw HURDAT2 data preparation script is not yet included. Full reproducibility will require restoring or reconstructing that preprocessing workflow.
 
 ## Data source
 
