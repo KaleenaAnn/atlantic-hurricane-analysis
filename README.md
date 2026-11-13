@@ -23,6 +23,21 @@ The NOAA/National Hurricane Center HURDAT2 data were cleaned and aggregated from
 - Evaluate regression assumptions using residual plots.
 - Check sensitivity using Spearman rank correlation and year-clustered standard errors.
 
+
+## Data Visualizations
+
+### Atlantic Storm Maximum Wind Speed (1990–2025)
+
+![Atlantic Hurricane Wind Speed Regression](storm_trend.png)
+
+**Figure 1.** Maximum recorded sustained wind speed for individual Atlantic storms from 1990–2025. The fitted regression line indicates a weak positive association between year and maximum wind speed; however, the relationship was not statistically significant (p = .1317).
+
+### Regression Diagnostic Plots
+
+![Storm-Level Regression Diagnostics](storm_model_diagnostics.png)
+
+**Figure 2.** Four-panel diagnostic plots for the storm-level linear regression model. These plots were used to examine residual patterns, normality, variability, and influential observations.
+
 ## Results
 
 | Metric | Result |
